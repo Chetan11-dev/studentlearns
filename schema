@@ -1,0 +1,33 @@
+Users
+-
+id int PK 
+name char(100)
+
+Products
+---
+id int PK 
+productName varchar(100) UNIQUE
+price money 
+sid int FK >- Suppliers.id
+# add constraint 
+
+Suppliers
+---
+id int PK
+name char(100)
+
+Orders
+---
+id int PK
+sid int FK >- Suppliers.id
+pid int FK >- Products.id
+uid int FK >- Users.id
+
+Shipment
+---
+id int PK
+oid int FK - Orders.id
+orderdate DATETIME 
+completeddate DATETIME null
+qty int  
+status char(20)
