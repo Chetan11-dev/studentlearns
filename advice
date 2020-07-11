@@ -1,0 +1,16 @@
+Tip:
+
+There are templates available. Keep studying them you will be be great at databases. (https://www.youtube.com/watch?v=030tD0uHWO8)
+
+Advice for databases:
+
+Use Ruby on rails (makes it dead simple) if you want to spin a quick mvp based on Sql ideal for startups.
+
+Use NodeJs, NestJs are heroes when working with NoSql and streaming services (Kafka)
+
+Use Spring Boot when you are a big organization and want to monitor its services and points of failure although it is tougher when results are definetly worth it.
+
+Most of all use a database specific to your needs use Sql with important transactions and NoSql for fast data storage and retrieval (Possible by using microservices architecture). Also use ER tools otherwise Sql is tough to deal with.
+
+)
+
