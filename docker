@@ -1,0 +1,5 @@
+docker run -p 1111:1111 -d \
+    -e POSTGRES_PASSWORD=admin \
+    --name postgress \
+    -e POSTGRES_USER=admin \
+    postgres
