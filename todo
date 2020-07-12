@@ -1,0 +1,8 @@
+make some queries to db 
+ - get users order 
+ - get suppliers order 
+ - change  order status  
+ 
+  restful concepts 
+ 
+spring boot rest and db there
