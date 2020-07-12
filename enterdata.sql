@@ -71,10 +71,22 @@ INSERT INTO [dbo].[Orders]
 )
 VALUES
 ( -- First row: values for the columns in the list above
- 1,2,4,1
+ 1,2,1,1
+),
+
+( -- First row: values for the columns in the list above
+ 3,2,2,1
+),
+
+( -- First row: values for the columns in the list above
+ 5,2,3,1
+),
+
+( -- First row: values for the columns in the list above
+ 4,1,4,2
 ),
 ( -- First row: values for the columns in the list above
- 2,1,2,2
+ 2,1,5,2
 );
 -- Add more rows here
 GO
@@ -87,16 +99,21 @@ INSERT INTO [dbo].[Shipment]
 [orderdate] ,
 [completeddate] ,
 [qty] ,
-[status] 
- 
+[status]  
 )
 -- YYYYMMDD format
 VALUES
 ( -- First row: values for the columns in the list above
  1,1,'20200818 10:34:09 AM' , null , 2 , 'pending'
 ),
-
 ( -- First row: values for the columns in the list above
  2,2,'20200820 10:34:09 AM' , null , 1 , 'pending'
+),( -- First row: values for the columns in the list above
+ 3,2,'20200821 10:34:09 AM' , null , 1 , 'pending'
+),( -- First row: values for the columns in the list above
+ 4,2,'20200822 10:34:09 AM' , null , 1 , 'pending'
+),
+( -- First row: values for the columns in the list above
+ 5,2,'20200823 10:34:09 AM' , null , 1 , 'pending'
 );
 GO

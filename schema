@@ -31,3 +31,5 @@ orderdate DATETIME
 completeddate DATETIME null
 qty int  
 status char(20)
+
+
